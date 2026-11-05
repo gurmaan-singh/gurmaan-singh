@@ -1,12 +1,6 @@
 <p align="center"><img src="banner.svg" alt="Gurmaan Singh: software for sensors, tracking and control" width="100%"></p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/C%2B%2B-20-E0122B?style=flat-square&labelColor=000000" alt="C++20">
-  <img src="https://img.shields.io/badge/CMake-build-ffffff?style=flat-square&labelColor=000000" alt="CMake">
-  <img src="https://img.shields.io/badge/Python-analysis-ffffff?style=flat-square&labelColor=000000" alt="Python">
-  <img src="https://img.shields.io/badge/Linux%20%7C%20Windows-ffffff?style=flat-square&labelColor=000000" alt="Linux and Windows">
-  <img src="https://img.shields.io/badge/open%20to-summer%20job%202027-E0122B?style=flat-square&labelColor=000000" alt="Open to a summer job in 2027">
-</p>
+<p align="center"><img src="badges.svg" alt="C++20, CMake, Python, Linux and Windows, open to a summer job in 2027"></p>
 
 <p align="center"><img src="roles.svg" alt="Multi-target tracking, real-time C++, sensor data, testing" width="620"></p>
 
@@ -22,7 +16,7 @@ I'm an engineering student at Fontys University of Applied Sciences. I like soft
 
 <p align="center"><img src="results.svg" alt="vakt results: the IMM cuts identity switches from 271 to 60 and mean GOSPA from 144 m to 124 m" width="760"></p>
 
-| | |
+| Part | How |
 |---|---|
 | **Filters** | IMM (constant velocity + coordinated turn) over extended Kalman filters |
 | **Association** | Hungarian global nearest neighbour, M-of-N track confirmation |
@@ -33,9 +27,9 @@ I'm an engineering student at Fontys University of Applied Sciences. I like soft
 
 ## Skills
 
-**Languages:** C++20, Python, MATLAB
-**Methods:** Kalman filtering, multi-target tracking, data association, Monte Carlo evaluation, control (PID and optimised)
-**Tools:** CMake, GoogleTest, Git, Linux and Windows, KiCad, Arduino and PlatformIO
+- **Languages:** C++20, Python, MATLAB
+- **Methods:** Kalman filtering, multi-target tracking, data association, Monte Carlo evaluation, control (PID and optimised)
+- **Tools:** CMake, GoogleTest, Git, Linux and Windows, KiCad, Arduino and PlatformIO
 
 ## Also
 
