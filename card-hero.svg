@@ -11,27 +11,7 @@
     <path d="M0 50H1200M0 100H1200M0 150H1200M0 200H1200M0 250H1200"/>
     <path d="M100 0V300M200 0V300M300 0V300M400 0V300M500 0V300M600 0V300M700 0V300M800 0V300M900 0V300M1000 0V300M1100 0V300"/>
   </g>
-  <!-- radar -->
-  <g fill="none" stroke="#ffffff" stroke-opacity="0.22">
-    <circle cx="1000" cy="150" r="118"/><circle cx="1000" cy="150" r="79"/><circle cx="1000" cy="150" r="40"/>
-    <path d="M882 150H1118M1000 32V268"/>
-  </g>
-  <g clip-path="url(#disc)">
-    <g>
-      <path d="M1000 150 L1118 150 A118 118 0 0 0 1076 59 Z" fill="url(#sweep)" transform="rotate(-18 1000 150)"/>
-      <animateTransform attributeName="transform" type="rotate" from="0 1000 150" to="360 1000 150" dur="6s" repeatCount="indefinite"/>
-    </g>
-  </g>
-  <!-- tracks: three targets, each leaves a short trail -->
-  <g fill="#fff">
-    <circle cx="1050" cy="95" r="3.5"><animate attributeName="opacity" values="1;0.25;1" dur="6s" repeatCount="indefinite"/></circle>
-    <circle cx="955" cy="190" r="3.5"><animate attributeName="opacity" values="0.25;1;0.25" dur="6s" repeatCount="indefinite"/></circle>
-    <circle cx="1070" cy="195" r="3.5" fill="#E0122B"><animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/></circle>
-  </g>
-  <g stroke="#fff" stroke-opacity="0.35" stroke-width="1.5" fill="none">
-    <path d="M1032 107L1050 95"/><path d="M938 200L955 190"/><path d="M1052 205L1070 195" stroke="#E0122B" stroke-opacity="0.7"/>
-  </g>
-  <!-- text -->
+  <defs><filter id="bg" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="9"/></filter></defs><g><circle cx="1000" cy="150" r="98" fill="none" stroke="#fff" stroke-opacity="0.18" stroke-width="1.5"/><polygon points="1000.0,110.1 1006.3,91.2 1012.6,110.1 1029.4,108.0 1054.6,95.4 1084.0,103.8 1100.8,129.0 1088.2,133.2 1077.7,150.0 1063.0,145.8 1052.5,166.8 1037.8,158.4 1025.2,179.4 1012.6,166.8 1006.3,187.8 1000.0,200.4 993.7,187.8 987.4,166.8 974.8,179.4 962.2,158.4 947.5,166.8 937.0,145.8 922.3,150.0 911.8,133.2 899.2,129.0 916.0,103.8 945.4,95.4 970.6,108.0 987.4,110.1 993.7,91.2" fill="#E0122B" filter="url(#bg)"><animate attributeName="opacity" values="0.45;0.95;0.45" dur="3.2s" repeatCount="indefinite"/></polygon><polygon points="1000.0,110.1 1006.3,91.2 1012.6,110.1 1029.4,108.0 1054.6,95.4 1084.0,103.8 1100.8,129.0 1088.2,133.2 1077.7,150.0 1063.0,145.8 1052.5,166.8 1037.8,158.4 1025.2,179.4 1012.6,166.8 1006.3,187.8 1000.0,200.4 993.7,187.8 987.4,166.8 974.8,179.4 962.2,158.4 947.5,166.8 937.0,145.8 922.3,150.0 911.8,133.2 899.2,129.0 916.0,103.8 945.4,95.4 970.6,108.0 987.4,110.1 993.7,91.2" fill="#E0122B" stroke="#fff" stroke-opacity="0.35" stroke-width="1"/><g><circle cx="1000" cy="150" r="98" fill="none" stroke="#E0122B" stroke-width="4" stroke-dasharray="60 556" stroke-linecap="round"/><animateTransform attributeName="transform" type="rotate" from="0 1000 150" to="360 1000 150" dur="9s" repeatCount="indefinite"/></g><g><circle cx="1000" cy="150" r="112" fill="none" stroke="#fff" stroke-opacity="0.7" stroke-width="2" stroke-dasharray="26 678" stroke-linecap="round"/><animateTransform attributeName="transform" type="rotate" from="360 1000 150" to="0 1000 150" dur="14s" repeatCount="indefinite"/></g></g><!-- text -->
   <text x="70" y="128" fill="#fff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="64" font-weight="300" letter-spacing="1">Gurmaan Singh</text>
   <rect x="72" y="146" width="56" height="3" fill="#E0122B"/>
   <text x="70" y="188" fill="#ffffff" fill-opacity="0.82" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24">Mechatronics engineering student</text>
